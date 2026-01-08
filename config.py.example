@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+データベース接続設定ファイル（サンプル）
+
+使用方法:
+1. このファイルを config.py にコピーしてください
+2. 実際の接続情報に書き換えてください
+3. config.py は機密情報を含むため、.gitignore に追加してください
+"""
+
+# データベース接続情報
+DB_USERNAME = "your_username"  # データベースユーザー名
+DB_PASSWORD = "your_password"  # データベースパスワード
+DB_DSN = "hostname:1521/service_name"  # データソース名 (ホスト:ポート/サービス名)
+
+# 例:
+# DB_USERNAME = "rapport_user"
+# DB_PASSWORD = "SecurePassword123"
+# DB_DSN = "localhost:1521/RAPPORTDB"

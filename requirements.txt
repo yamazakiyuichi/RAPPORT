@@ -1,0 +1,7 @@
+# RAPPORTシステム 患者データ取得スクリプト 必要なパッケージ
+
+# Oracle Database接続用
+cx_Oracle>=8.3.0
+
+# その他のユーティリティ（必要に応じて追加）
+python-dotenv>=1.0.0
